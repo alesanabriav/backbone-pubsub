@@ -2,7 +2,7 @@
 A Simple pubsub extracted from Backbone events
 
 ##Installation
-npm install --save backbone-pubsub
+    npm install --save backbone-pubsub
 
 ## Usage
     pubsub.on("alert", function(msg) {
