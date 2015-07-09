@@ -1,10 +1,10 @@
 {
   "name": "backbone-pubsub",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "simple pubsub with backbone events",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",

@@ -1,8 +1,8 @@
-#Backbone PubSub
+# Backbone PubSub
 
 A Simple pubsub extracted from Backbone events
 
-##Installation
+## Installation
 
     npm install --save backbone-pubsub
 
