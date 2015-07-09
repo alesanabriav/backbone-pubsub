@@ -1,6 +1,6 @@
 {
   "name": "backbone-pubsub",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "simple pubsub with backbone events",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/developersoul/backbone-pubsub#readme",
   "dependencies": {
-    "backbone": "^1.2.1"
+    "backbone": "^1.2.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0"
   }
 }
