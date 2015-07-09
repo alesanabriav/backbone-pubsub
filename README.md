@@ -5,11 +5,13 @@ A Simple pubsub extracted from Backbone events
     npm install --save backbone-pubsub
 
 ## Usage
-    pubsub.on("alert", function(msg) {
-      alert("Triggered " + msg);
+    var pubsub = require('backbone-pubsub');
+
+    pubsub.on('view:update', function(object) {
+      console.log(object);
     });
 
-    pubsub.trigger("alert", "an event");
+    pubsub.trigger('view:update', object);
 
 ## More
 [Backbone Events Docs](http://backbonejs.org/#Events)
