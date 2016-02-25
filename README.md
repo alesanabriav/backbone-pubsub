@@ -17,3 +17,6 @@ A Simple pubsub extracted from Backbone events
 
 ## More
 [Backbone Events Docs](http://backbonejs.org/#Events)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/developersoul/backbone-pubsub/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
